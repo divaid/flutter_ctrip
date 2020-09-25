@@ -16,7 +16,7 @@
 
 大家也可以，[移步这里点击观看视频](https://www.bilibili.com/video/BV16p4y1Q71f/) （可点击齿轮设置隐藏黑边）
 
-或者安装体验(Android)：[[FCtrip.apk](https://github.com/persilee/flutter_ctrip/releases/download/V1.0.0-beta.1/app-release.apk)]，iOS请自行运行代码安装。
+或者安装体验(Android)：[[FCtrip.apk](https://github.com/persilee/flutter_ctrip/releases/download/v1.0.1/app-release-v1.0.1.apk)]，iOS请自行运行代码安装。
 
 ![手机扫描二维码安装](https://www.pgyer.com/app/qrcode/HqqH "手机扫描二维码安装")
 
@@ -24,7 +24,7 @@ Blog地址 : [https://h.lishaoy.net/flutterctrip](https://h.lishaoy.net/flutterc
 
 ### 特别提醒
 
-由于百度AI语言识别SDK包的 `libBaiduSpeechSDK.a` 有 **184.2M**，放到GitHub上下载很慢，所以，请[点击下载 libBaiduSpeechSDK.a 文件](https://speech-doc.gz.bcebos.com/ios-asr/ASR_iOS_v3.0.9.0_20200107_Release.zip)，
+由于百度AI语言识别SDK包的 `libBaiduSpeechSDK.a` 有 **184.2M**，放到GitHub上下载很慢，所以，请[点击下载 libBaiduSpeechSDK.a 文件](https://ai.baidu.com/download?sdkId=32)，
 解压后，把 `BDSClientLib/libBaiduSpeechSDK.a` 目录放到 `flutter_ctrip/ios/Plugin/ASRPlugin/` 目录下。
 
 如想了解更多关于 **Flutter** 信息，请关注我的博客文章
@@ -41,6 +41,7 @@ Blog地址 : [https://h.lishaoy.net/flutterctrip](https://h.lishaoy.net/flutterc
 
 ### 更新日志
 
+- 202-09-15 22:36 优化 搜索框提示文字错位问题
 - 202-06-25 04:55 优化 状态栏（使用 SystemUiOverlayStyle 实现沉浸式状态栏）
 - 202-06-25 01:55 优化 旅拍页面（新增加载更多指示器）
 - 202-06-24 23:56 优化 tab navigation（使用 AutomaticKeepAliveClientMixin 保活页面，加入页面切换动画）
